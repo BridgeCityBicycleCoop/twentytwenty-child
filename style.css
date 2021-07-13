@@ -1,0 +1,66 @@
+/*
+ Theme Name:   Twenty Twenty Child
+ Theme URI:    http://github.com/BridgeCityBicycleCoop/
+ Description:  Twenty Twenty Child Theme
+ Author:       digital@bridgecitybicyclecoop.com
+ Author URI:   https://github.com/BridgeCityBicycleCoop
+ Template:     twentytwenty
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+
+ Text Domain:  twentytwenty-child
+*/
+
+
+
+
+h1,
+.heading-size-1 {
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 1.138888889;
+}
+
+@media (min-width: 700px) {
+
+
+    h1,
+    .heading-size-1,
+    h2,
+    .heading-size-2,
+    h3,
+    .heading-size-3 {
+        margin: 6rem auto 3rem;
+    }
+
+
+
+    h1,
+    .heading-size-1 {
+        font-size: 4.2rem;
+    }
+
+}
+
+@media (min-width: 1024px ) {
+        h1,
+        .heading-size-1 {
+            font-size: 4.2rem;
+            font-weight: 600;
+            line-height: 1.138888889;
+        }
+
+}
+
+
+@media (min-width: 1220px) {
+
+    /* Element Base -------------------------- */
+
+    /* TITLES */
+
+    h1,
+    .heading-size-1 {
+        font-size: 6.6rem;
+    }
+}
